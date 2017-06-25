@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @champion.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @champion.email %>
+</p>
+
+<p>
+  <strong>Origin:</strong>
+  <%= @champion.origin %>
+</p>
+
+<p>
+  <strong>Language:</strong>
+  <%= @champion.language %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_champion_path(@champion) %> |
+<%= link_to 'Back', Home_path %>

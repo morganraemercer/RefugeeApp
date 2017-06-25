@@ -1,0 +1,362 @@
+h1 {
+    font-size: 80px;
+        
+    font-style: italic;
+    
+    font-family: Arial;
+    
+    color: black;
+    
+    font-weight: 100;
+
+    text-align: center;
+    
+    padding-top: 80px;
+
+}
+
+.field {
+    font-size: 20px;
+    
+    text-transform: uppercase;
+    
+    text-align: center;
+    
+    padding-bottom: 80px;
+    
+}
+
+.actions {
+    text-decoration: none;
+    border: 1px solid rgba(197, 246, 202, 1);
+    background-color: rgba(190, 232, 194, 1);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-family:sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+
+    font-style: italic;
+
+    font-family: Arial;
+
+    color: black;
+    
+    font-weight: 100;
+
+    text-align: center;
+
+    padding-top: 80px;
+
+    text-align: left;
+
+    margin: 20px;
+
+
+
+}
+
+p {
+
+    text-align: center;
+
+    font-family: Arial;
+
+    font-size: 35px;
+
+    text-align: left;
+
+    margin: 20px;
+
+
+
+}
+
+/*
+.language {
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    padding-bottom: 80px;
+
+}
+*/
+/*Old way of formatting language element*/
+
+/*
+.btn1 {
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    padding: 5px;
+
+    padding-bottom: 10px;
+
+    border: 5px solid rgba(197, 246, 202, 1);
+
+    width: 20%;
+
+    transform: translate(185%, 0%)
+}
+
+.btn2 {
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    padding: 5px;
+
+    padding-bottom: 10px;
+
+    border: 5px solid rgba(197, 246, 202, 1);
+
+    width: 20%;
+
+    transform: translate(185%, 0%)
+}
+*/
+/*old btn styling on page*/
+
+
+.btn-general {
+    text-decoration: none;
+    border: 1px solid rgba(197, 246, 202, 1);
+    background-color: rgba(190, 232, 194, 1);
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-family:sans-serif;
+    float: left;
+}
+
+.btn-general:hover {
+    background-color: rgba(197, 246, 202, 1);
+}
+
+h3 {
+    font-size: 20px;
+
+    text-transform: uppercase;
+
+
+
+}
+
+
+.dropdown-menu {
+  left: 50%;
+  right: auto;
+  text-align: center;
+align-content: left;
+}
+/* line 1, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, /Users/VanessaRoudebush/Desktop/RefugeeApp/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+
+ h1 {
+     font-size: 80px;
+
+     font-style: italic;
+
+     font-family: Arial;
+
+     color: black;
+
+     font-weight: 100;
+
+     text-align: center;
+
+     padding-top: 80px;
+
+ }
+
+ p {
+     text-align: center;
+
+     font-family: Arial;
+
+     font-size: 35px;
+ }
+
+ .language {
+     font-size: 20px;
+
+     text-transform: uppercase;
+
+     text-align: center;
+
+     padding-bottom: 80px;
+
+ }
+
+ .btn1 {
+     font-size: 20px;
+
+     text-transform: uppercase;
+
+     text-align: center;
+
+     padding: 5px;
+
+     padding-bottom: 10px;
+
+     border: 5px solid rgba(197, 246, 202, 1);
+
+     width: 20%;
+
+     transform: translate(185%, 0%)
+ }
+
+ .btn2 {
+     font-size: 20px;
+
+     text-transform: uppercase;
+
+     text-align: center;
+
+     padding: 5px;
+
+     padding-bottom: 10px;
+
+     border: 5px solid rgba(197, 246, 202, 1);
+
+     width: 20%;
+
+     transform: translate(185%, 0%)
+ }
+
+ .btn-general {
+     text-decoration: none;
+     border: 3px solid skyblue;
+     background-color: skyblue;
+     color: #fff;
+     border-radius: 5px;
+     padding: 10px;
+     font-family:sans-serif;
+ }
+
+ .btn-general:hover {
+     background-color: midnightblue;
+ }

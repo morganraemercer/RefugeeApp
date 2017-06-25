@@ -1,0 +1,34 @@
+
+<h1>Refugees</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Origin</th>
+      <th>Language</th>
+      <th>Problems</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @refugees.each do |refugee| %>
+      <tr>
+        <td><%= refugee.name %></td>
+        <td><%= refugee.email %></td>
+        <td><%= refugee.origin %></td>
+        <td><%= refugee.language %></td>
+        <td><%= refugee.problems %></td>
+        <td><%= link_to 'Show', refugee %></td>
+        <td><%= link_to 'Edit', edit_refugee_path(refugee) %></td>
+        <td><%= link_to 'Destroy', refugee, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Refugee', new_refugee_path %>

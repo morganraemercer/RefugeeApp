@@ -1,0 +1,57 @@
+<%= form_with(model: champion, local: true) do |form| %>
+  <% if champion.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(champion.errors.count, "error") %> prohibited this champion from being saved:</h2>
+
+      <ul>
+      <% champion.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :champion_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email, id: :champion_email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :origin %>
+    <%= form.text_field :origin, id: :champion_origin %>
+  </div>
+
+  <div class="field">
+    <%= form.label :language %>
+    <%= form.text_field :language, id: :champion_language %>
+  </div>
+
+  <div class="field">
+    <%= form.label :password %>
+    <%= form.password_field :password, id: :champion_password_digest %>
+  </div>
+
+  <div class="field">
+    <%= form.label :confirm_password %>
+    <%= form.password_field :password, id: :champion_password_digest %>
+  </div>
+
+  <div class="field">
+    <%= form.label :solved %>
+    <%= form.text_area :solved %>
+  </div>
+
+  <div class="field">
+    <%= form.label :phone %>
+    <%= form.text_field :phone, id: :phone %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

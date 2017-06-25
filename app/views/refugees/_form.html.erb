@@ -1,0 +1,47 @@
+<%= form_with(model: refugee, local: true) do |form| %>
+  <% if refugee.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(refugee.errors.count, "error") %> prohibited this refugee from being saved:</h2>
+
+      <ul>
+      <% refugee.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div style="text-align: center;">
+  <div>
+    <%= form.text_field :name, placeholder: 'Enter your name' %>
+  </div>
+
+  <div>
+    <%= form.text_field :email, placeholder: 'Email address' %>
+  </div>
+
+  <div>
+    <%= form.text_field :origin, placeholder: 'Where are you from?' %>
+  </div>
+
+  <div>
+    <%= form.password_field :password, placeholder: 'Enter a password' %>
+  </div>
+
+  <div>
+    <%= form.password_field :password, placeholder: 'Confirm your password' %>
+  </div>
+
+  <div>
+    <%= form.text_field :problems, placeholder: 'Your needs' %>
+  </div>
+
+  <div>
+    <%= form.text_field :phone, placeholder: 'Your phone number' %>
+
+  <div class="actions">
+    <%= form.submit 'create profile', class: 'btn-general', style:'text-align:center;' %>
+  </div>
+</div>
+</div>
+<% end %>
